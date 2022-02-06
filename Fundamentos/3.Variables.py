@@ -1,8 +1,5 @@
 #Variables
 
-from argparse import MetavarTypeHelpFormatter
-
-
 edad = 21
 nombre = 'Juan'
 num = 5.55
