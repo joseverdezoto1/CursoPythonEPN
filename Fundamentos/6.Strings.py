@@ -54,3 +54,19 @@ print(cadenatexto[1])
 print(len(cadenatexto))
 print(cadenatexto[-3])
 print(cadenatexto[3]+cadenatexto[4]+cadenatexto[9]+cadenatexto[14])
+
+#indexacion en rangos
+#[valor incluido: valor excluido]
+print(cadenatexto[0:2])
+print(cadenatexto[2:10])
+print(cadenatexto[2:20:2])
+print(cadenatexto[2:])
+print(cadenatexto[:3])
+print(cadenatexto[::-1])
+print(cadenatexto.upper()) #ver metodos w3school
+print(cadenatexto.lower())
+print(cadenatexto.find('de')) #devuelve el primer indice
+print(cadenatexto.startswith('Curso'))
+print(cadenatexto.startswith('Hola'))
+print(cadenatexto.endswith('programacion'))
+print(cadenatexto.endswith('hola'))
