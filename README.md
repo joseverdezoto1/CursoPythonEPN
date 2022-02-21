@@ -1,2 +1,3 @@
 # CursoPythonEPN
-Curso Python EPN 2022
+Jose Verdezoto
+Ing. en Software
