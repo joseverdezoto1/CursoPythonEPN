@@ -99,4 +99,37 @@ print(palabra.count('las'))
 saludo = 'hola'
 oracion = saludo.join([' buenas', ' tardes'])
 print(oracion)
-#51
+
+list4 = ['Hola']
+list5 = [' como estas?']
+list4.extend(list5)
+temp = list4.copy()
+print(temp)
+
+#Declarar una lista vacia
+list6 = []
+
+#Quitar todos los elementos
+temp.clear()
+print(temp)
+
+# Unpacking, desempaquetado
+print(alumnos)
+nombre1, nombre2 = alumnos[0:2]
+print(nombre1)
+print(nombre2)
+
+nombre1, nombre2, *nombres, nombre3 = alumnos
+print(nombre1)
+print(nombre2)
+print(nombres)
+print(nombre3)
+
+#lista de listas
+matriz = [
+    [0,1,0],
+    [1,1,1],
+    [0,0,2]
+]
+print(matriz)
+print(matriz[1][1])
