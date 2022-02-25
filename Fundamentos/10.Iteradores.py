@@ -22,7 +22,10 @@ for fila in matriz:
         print(columna)
 
 #anidados basados en indices
-for fila in range(len(matriz)):
-    for columna in range(len(fila)):
-        print(matriz[fila][columna])
-        #1:20
+for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        print('Valor de la posicion i:{} - j:{} es:{}'.format(i,j,matriz[i][j]))
+        if matriz[i][j] == 2:
+            matriz[i][j] = 10
+
+print(matriz)
