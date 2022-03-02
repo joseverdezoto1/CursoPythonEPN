@@ -30,3 +30,8 @@ dimensiones = (500,600)
 largo, ancho = dimensiones
 print(largo)
 print(ancho)
+
+#Convertir de lista a tupla
+lista = [1,2,3]
+miTupla = tuple(lista)
+print(miTupla)

@@ -29,3 +29,5 @@ for i in range(len(matriz)):
             matriz[i][j] = 10
 
 print(matriz)
+
+#while
