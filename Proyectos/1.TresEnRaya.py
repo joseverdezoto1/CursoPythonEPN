@@ -15,7 +15,7 @@
 # Además los resutados se guardarán en un archivo de texto con fecha hora.
 from random import randint
 
-from sqlalchemy import false
+#from sqlalchemy import false
 
 global nombreJugador1
 nombreJugador1 = 'Jugador 1'

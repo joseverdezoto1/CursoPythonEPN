@@ -23,6 +23,7 @@ materias = {
 }
 edad = 22
 llaveVariable = 'cedula'
+
 persona = {
     'nombre': 'Anderson',
     'apellido': 'Cárdenas',
