@@ -74,4 +74,3 @@ def listarAlumnos3(**alumnos):
     print('La edad es: ', alumnos['edad'])
 
 listarAlumnos3(nombre='Jose', apellido='Verdezoto', edad=22)
-
